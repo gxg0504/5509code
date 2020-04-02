@@ -1,0 +1,12 @@
+debug\list.o: ..\rtos\amazon-freertos\lib\FreeRTOS\list.c
+debug\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+debug\list.o: ../rtos/amazon-freertos/lib/include/FreeRTOS.h
+debug\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+debug\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\list.o: ..\board\FreeRTOSConfig.h
+debug\list.o: ../rtos/amazon-freertos/lib/include/private/projdefs.h
+debug\list.o: ../rtos/amazon-freertos/lib/include/private/portable.h
+debug\list.o: ../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h
+debug\list.o: ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h
+debug\list.o: ../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h
+debug\list.o: ../rtos/amazon-freertos/lib/include/private/list.h

@@ -1,0 +1,1462 @@
+Dependencies for Project '5509main_board', Target '5509main_board': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\board\readme.txt)(0x5D07B19A)()
+F (..\board\main.c)(0x5E82F3BE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\main.o --omf_browse debug\main.crf --depend debug\main.d)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_power.h)(0x5D07B19A)
+I (../devices/LPC54608/utilities/debug_console/fsl_debug_console.h)(0x5D07B19A)
+I (../components/serial_manager/serial_manager.h)(0x5D07B19A)
+I (../components/serial_manager/serial_port_uart.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_ConfDefaults.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_Config\GUIConf.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_Type.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\LCD.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\Global.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_Version.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUIDRV_Lin.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\BUTTON.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\WM.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\WM_GUI.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\DIALOG_Intern.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\WIDGET.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\WM_Intern.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_Private.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\LCD_Protected.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_Debug.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\SCROLLBAR.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_Config\emwin_config.h)(0x5DC3C73C)
+I (..\board\board.h)(0x5D07B19A)
+I (..\board\clock_config.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_gpio.h)(0x5D07B19A)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (../middleware/usb/host/usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (../middleware/usb/host/usb_host_framework.h)(0x5D07B19C)
+I (../middleware/usb/host/class/usb_host_msd.h)(0x5D07B19C)
+I (..\board\host_msd_fatfs.h)(0x5D07B19A)
+I (..\board\pin_mux.h)(0x5DD4CE20)
+I (..\board\usb_app.h)(0x5DD4E412)
+I (..\board\lcd_app.h)(0x5DD4F405)
+I (..\board\key_led_app.h)(0x5DD50384)
+I (..\board\usart_app.h)(0x5DD5052D)
+F (..\board\host_msd_fatfs.c)(0x5DD4E349)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\host_msd_fatfs.o --omf_browse debug\host_msd_fatfs.crf --depend debug\host_msd_fatfs.d)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (../middleware/usb/host/usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (../middleware/usb/host/usb_host_framework.h)(0x5D07B19C)
+I (../middleware/usb/host/class/usb_host_msd.h)(0x5D07B19C)
+I (..\board\host_msd_fatfs.h)(0x5D07B19A)
+I (../middleware/fatfs/source/ff.h)(0x5D07B19A)
+I (../middleware/fatfs/source/integer.h)(0x5D07B19A)
+I (..\board\ffconf.h)(0x5D07B19A)
+I (../middleware/fatfs/source/diskio.h)(0x5D07B19A)
+I (..\board\usb_app.h)(0x5DD4E412)
+F (..\board\fsl_usb_disk_freertos.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_usb_disk_freertos.o --omf_browse debug\fsl_usb_disk_freertos.crf --depend debug\fsl_usb_disk_freertos.d)
+I (..\board\ffconf.h)(0x5D07B19A)
+I (..\board\fsl_usb_disk.h)(0x5D07B19A)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (../middleware/usb/host/usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (../middleware/usb/host/usb_host_framework.h)(0x5D07B19C)
+I (../middleware/usb/host/class/usb_host_msd.h)(0x5D07B19C)
+I (../middleware/fatfs/source/diskio.h)(0x5D07B19A)
+I (../middleware/fatfs/source/integer.h)(0x5D07B19A)
+F (..\board\usb_app.c)(0x5DD4F9F8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usb_app.o --omf_browse debug\usb_app.crf --depend debug\usb_app.d)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (../middleware/usb/host/usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (../middleware/usb/host/usb_host_framework.h)(0x5D07B19C)
+I (../middleware/usb/host/class/usb_host_msd.h)(0x5D07B19C)
+I (..\board\board.h)(0x5D07B19A)
+I (..\board\clock_config.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_gpio.h)(0x5D07B19A)
+I (..\board\host_msd_fatfs.h)(0x5D07B19A)
+I (..\board\usb_app.h)(0x5DD4E412)
+I (..\board\pin_mux.h)(0x5DD4CE20)
+I (../devices/LPC54608/drivers/fsl_power.h)(0x5D07B19A)
+F (..\board\lcd_app.c)(0x5DD4F3DA)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\lcd_app.o --omf_browse debug\lcd_app.crf --depend debug\lcd_app.d)
+I (../devices/LPC54608/utilities/debug_console/fsl_debug_console.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../components/serial_manager/serial_manager.h)(0x5D07B19A)
+I (../components/serial_manager/serial_port_uart.h)(0x5D07B19A)
+I (..\board\lcd_app.h)(0x5DD4F405)
+I (..\middleware\emwin\emWin_header\GUI.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\middleware\emwin\emWin_header\GUI_ConfDefaults.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_Config\GUIConf.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_Type.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\LCD.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\Global.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_Version.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUIDRV_Lin.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\BUTTON.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\WM.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\WM_GUI.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\DIALOG_Intern.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\WIDGET.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\WM_Intern.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_Private.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\LCD_Protected.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_Debug.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\SCROLLBAR.h)(0x5D07B19A)
+F (..\board\key_led_app.c)(0x5E842A65)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\key_led_app.o --omf_browse debug\key_led_app.crf --depend debug\key_led_app.d)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_iocon.h)(0x5D07B19A)
+I (..\board\pin_mux.h)(0x5DD4CE20)
+I (..\board\key_led_app.h)(0x5DD50384)
+I (../devices/LPC54608/drivers/fsl_gpio.h)(0x5D07B19A)
+I (../devices/LPC54608/utilities/debug_console/fsl_debug_console.h)(0x5D07B19A)
+I (../components/serial_manager/serial_manager.h)(0x5D07B19A)
+I (../components/serial_manager/serial_port_uart.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+F (..\board\usart_app.c)(0x5DD508FE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usart_app.o --omf_browse debug\usart_app.crf --depend debug\usart_app.d)
+I (../devices/LPC54608/utilities/debug_console/fsl_debug_console.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../components/serial_manager/serial_manager.h)(0x5D07B19A)
+I (../components/serial_manager/serial_port_uart.h)(0x5D07B19A)
+I (..\board\usart_app.h)(0x5DD5052D)
+I (../devices/LPC54608/drivers/fsl_usart_freertos.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_usart.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+F (..\board\board.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\board.o --omf_browse debug\board.crf --depend debug\board.d)
+I (..\board\board.h)(0x5D07B19A)
+I (..\board\clock_config.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_gpio.h)(0x5D07B19A)
+I (../devices/LPC54608/utilities/debug_console/fsl_debug_console.h)(0x5D07B19A)
+I (../components/serial_manager/serial_manager.h)(0x5D07B19A)
+I (../components/serial_manager/serial_port_uart.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_emc.h)(0x5D07B19A)
+F (..\board\clock_config.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\clock_config.o --omf_browse debug\clock_config.crf --depend debug\clock_config.d)
+I (../devices/LPC54608/drivers/fsl_power.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (..\board\clock_config.h)(0x5D07B19A)
+F (..\board\pin_mux.c)(0x5E84333E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\pin_mux.o --omf_browse debug\pin_mux.crf --depend debug\pin_mux.d)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_iocon.h)(0x5D07B19A)
+I (..\board\pin_mux.h)(0x5DD4CE20)
+F (..\board\fsl_ft5406.c)(0x59E3E1F0)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_ft5406.o --omf_browse debug\fsl_ft5406.crf --depend debug\fsl_ft5406.d)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../devices/LPC54608/utilities/debug_console/fsl_debug_console.h)(0x5D07B19A)
+I (../components/serial_manager/serial_manager.h)(0x5D07B19A)
+I (../components/serial_manager/serial_port_uart.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_i2c.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\fsl_ft5406.h)(0x59E3E1F0)
+F (..\middleware\usb\host\usb_host_ip3516hs.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usb_host_ip3516hs.o --omf_browse debug\usb_host_ip3516hs.crf --depend debug\usb_host_ip3516hs.d)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+F (..\middleware\usb\host\usb_host_ohci.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usb_host_ohci.o --omf_browse debug\usb_host_ohci.crf --depend debug\usb_host_ohci.d)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (..\middleware\usb\host\usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_framework.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_hci.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_ohci.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_devices.h)(0x5D07B19C)
+F (..\middleware\usb\host\usb_host_devices.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usb_host_devices.o --omf_browse debug\usb_host_devices.crf --depend debug\usb_host_devices.d)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (..\middleware\usb\host\usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_framework.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_hci.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_devices.h)(0x5D07B19C)
+I (../middleware/usb/host/class/usb_host_hub.h)(0x5D07B19C)
+F (..\middleware\usb\host\usb_host_framework.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usb_host_framework.o --omf_browse debug\usb_host_framework.crf --depend debug\usb_host_framework.d)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (..\middleware\usb\host\usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_framework.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_hci.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_devices.h)(0x5D07B19C)
+F (..\middleware\usb\host\usb_host_hci.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usb_host_hci.o --omf_browse debug\usb_host_hci.crf --depend debug\usb_host_hci.d)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (..\middleware\usb\host\usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_framework.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_hci.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_devices.h)(0x5D07B19C)
+I (..\middleware\usb\host\usb_host_ohci.h)(0x5D07B19C)
+F (..\middleware\usb\osa\usb_osa_freertos.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usb_osa_freertos.o --omf_browse debug\usb_osa_freertos.crf --depend debug\usb_osa_freertos.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+F (..\rtos\amazon-freertos\lib\FreeRTOS\portable\MemMang\heap_4.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\heap_4.o --omf_browse debug\heap_4.crf --depend debug\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+F (..\rtos\amazon-freertos\lib\FreeRTOS\portable\RVDS\ARM_CM4F\port.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\port.o --omf_browse debug\port.crf --depend debug\port.d)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+F (..\rtos\amazon-freertos\lib\FreeRTOS\event_groups.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\event_groups.o --omf_browse debug\event_groups.crf --depend debug\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+F (..\rtos\amazon-freertos\lib\FreeRTOS\list.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\list.o --omf_browse debug\list.crf --depend debug\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+F (..\rtos\amazon-freertos\lib\FreeRTOS\queue.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\queue.o --omf_browse debug\queue.crf --depend debug\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+F (..\rtos\amazon-freertos\lib\FreeRTOS\stream_buffer.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\stream_buffer.o --omf_browse debug\stream_buffer.crf --depend debug\stream_buffer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/stream_buffer.h)(0x5D07B19C)
+F (..\rtos\amazon-freertos\lib\FreeRTOS\tasks.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\tasks.o --omf_browse debug\tasks.crf --depend debug\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/stack_macros.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../rtos/amazon-freertos/lib/include/freertos_tasks_c_additions.h)(0x5D07B19C)
+F (..\rtos\amazon-freertos\lib\FreeRTOS\timers.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\timers.o --omf_browse debug\timers.crf --depend debug\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+F (..\middleware\usb\host\class\usb_host_hub.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usb_host_hub.o --omf_browse debug\usb_host_hub.crf --depend debug\usb_host_hub.d)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (../middleware/usb/host/usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (../middleware/usb/host/usb_host_framework.h)(0x5D07B19C)
+I (..\middleware\usb\host\class\usb_host_hub.h)(0x5D07B19C)
+F (..\middleware\usb\host\class\usb_host_hub_app.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usb_host_hub_app.o --omf_browse debug\usb_host_hub_app.crf --depend debug\usb_host_hub_app.d)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (../middleware/usb/host/usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (../middleware/usb/host/usb_host_framework.h)(0x5D07B19C)
+I (..\middleware\usb\host\class\usb_host_hub.h)(0x5D07B19C)
+I (../middleware/usb/host/usb_host_hci.h)(0x5D07B19C)
+I (..\middleware\usb\host\class\usb_host_hub_app.h)(0x5D07B19C)
+I (../middleware/usb/host/usb_host_devices.h)(0x5D07B19C)
+F (..\middleware\usb\host\class\usb_host_msd.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usb_host_msd.o --omf_browse debug\usb_host_msd.crf --depend debug\usb_host_msd.d)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (../middleware/usb/host/usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (../middleware/usb/host/usb_host_framework.h)(0x5D07B19C)
+I (..\middleware\usb\host\class\usb_host_msd.h)(0x5D07B19C)
+I (../middleware/usb/host/usb_host_hci.h)(0x5D07B19C)
+F (..\middleware\usb\host\class\usb_host_msd_ufi.c)(0x5D07B19C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usb_host_msd_ufi.o --omf_browse debug\usb_host_msd_ufi.crf --depend debug\usb_host_msd_ufi.d)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (../middleware/usb/host/usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (../middleware/usb/host/usb_host_framework.h)(0x5D07B19C)
+I (..\middleware\usb\host\class\usb_host_msd.h)(0x5D07B19C)
+F (..\middleware\fatfs\source\diskio.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\diskio.o --omf_browse debug\diskio.crf --depend debug\diskio.d)
+I (..\board\ffconf.h)(0x5D07B19A)
+I (..\middleware\fatfs\source\diskio.h)(0x5D07B19A)
+I (..\middleware\fatfs\source\integer.h)(0x5D07B19A)
+I (..\board\fsl_usb_disk.h)(0x5D07B19A)
+I (..\board\usb_host_config.h)(0x5D07B19A)
+I (../middleware/usb/host/usb_host.h)(0x5D07B19C)
+I (../middleware/usb/include/usb.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../middleware/usb/osa/usb_osa.h)(0x5D07B19C)
+I (../middleware/usb/osa/usb_osa_freertos.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_misc.h)(0x5D07B19C)
+I (../middleware/usb/include/usb_spec.h)(0x5D07B19C)
+I (../middleware/usb/host/usb_host_framework.h)(0x5D07B19C)
+I (../middleware/usb/host/class/usb_host_msd.h)(0x5D07B19C)
+F (..\middleware\fatfs\source\ff.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\ff.o --omf_browse debug\ff.crf --depend debug\ff.d)
+I (..\middleware\fatfs\source\ff.h)(0x5D07B19A)
+I (..\middleware\fatfs\source\integer.h)(0x5D07B19A)
+I (..\board\ffconf.h)(0x5D07B19A)
+I (..\middleware\fatfs\source\diskio.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+F (..\middleware\fatfs\source\ffsystem.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\ffsystem.o --omf_browse debug\ffsystem.crf --depend debug\ffsystem.d)
+I (..\middleware\fatfs\source\ff.h)(0x5D07B19A)
+I (..\middleware\fatfs\source\integer.h)(0x5D07B19A)
+I (..\board\ffconf.h)(0x5D07B19A)
+F (..\middleware\fatfs\source\ffunicode.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\ffunicode.o --omf_browse debug\ffunicode.crf --depend debug\ffunicode.d)
+I (..\middleware\fatfs\source\ff.h)(0x5D07B19A)
+I (..\middleware\fatfs\source\integer.h)(0x5D07B19A)
+I (..\board\ffconf.h)(0x5D07B19A)
+F (..\devices\LPC54608\drivers\fsl_clock.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_clock.o --omf_browse debug\fsl_clock.crf --depend debug\fsl_clock.d)
+I (..\devices\LPC54608\drivers\fsl_clock.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_reset.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_power.h)(0x5D07B19A)
+F (..\devices\LPC54608\drivers\fsl_common.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_common.o --omf_browse debug\fsl_common.crf --depend debug\fsl_common.d)
+I (..\devices\LPC54608\drivers\fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_clock.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_reset.h)(0x5D07B19A)
+F (..\devices\LPC54608\drivers\fsl_flexcomm.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_flexcomm.o --omf_browse debug\fsl_flexcomm.crf --depend debug\fsl_flexcomm.d)
+I (..\devices\LPC54608\drivers\fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_clock.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_reset.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_flexcomm.h)(0x5D07B19A)
+F (..\devices\LPC54608\drivers\fsl_gpio.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_gpio.o --omf_browse debug\fsl_gpio.crf --depend debug\fsl_gpio.d)
+I (..\devices\LPC54608\drivers\fsl_gpio.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_clock.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_reset.h)(0x5D07B19A)
+F (..\devices\LPC54608\drivers\fsl_emc.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_emc.o --omf_browse debug\fsl_emc.crf --depend debug\fsl_emc.d)
+I (..\devices\LPC54608\drivers\fsl_emc.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_clock.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_reset.h)(0x5D07B19A)
+F (..\devices\LPC54608\drivers\fsl_power.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_power.o --omf_browse debug\fsl_power.crf --depend debug\fsl_power.d)
+I (..\devices\LPC54608\drivers\fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_clock.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_reset.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_power.h)(0x5D07B19A)
+F (..\devices\LPC54608\drivers\fsl_reset.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_reset.o --omf_browse debug\fsl_reset.crf --depend debug\fsl_reset.d)
+I (..\devices\LPC54608\drivers\fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_clock.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_reset.h)(0x5D07B19A)
+F (..\devices\LPC54608\drivers\fsl_usart.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_usart.o --omf_browse debug\fsl_usart.crf --depend debug\fsl_usart.d)
+I (..\devices\LPC54608\drivers\fsl_usart.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_clock.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_reset.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_flexcomm.h)(0x5D07B19A)
+F (..\devices\LPC54608\drivers\fsl_usart_freertos.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_usart_freertos.o --omf_browse debug\fsl_usart_freertos.crf --depend debug\fsl_usart_freertos.d)
+I (..\devices\LPC54608\drivers\fsl_usart_freertos.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_usart.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_clock.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_reset.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/event_groups.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+F (..\devices\LPC54608\drivers\fsl_i2c.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_i2c.o --omf_browse debug\fsl_i2c.crf --depend debug\fsl_i2c.d)
+I (..\devices\LPC54608\drivers\fsl_i2c.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\devices\LPC54608\drivers\fsl_clock.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_reset.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_flexcomm.h)(0x5D07B19A)
+F (..\devices\LPC54608\drivers\fsl_lcdc.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_lcdc.o --omf_browse debug\fsl_lcdc.crf --depend debug\fsl_lcdc.d)
+I (..\devices\LPC54608\drivers\fsl_lcdc.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_clock.h)(0x5D07B19A)
+I (..\devices\LPC54608\drivers\fsl_reset.h)(0x5D07B19A)
+F (..\devices\LPC54608\system_LPC54608.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\system_lpc54608.o --omf_browse debug\system_lpc54608.crf --depend debug\system_lpc54608.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\devices\LPC54608\fsl_device_registers.h)(0x5D07B19A)
+I (..\devices\LPC54608\LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (..\devices\LPC54608\system_LPC54608.h)(0x5D07B19A)
+I (..\devices\LPC54608\LPC54608_features.h)(0x5D07B19A)
+F (..\devices\LPC54608\arm\startup_LPC54608.s)(0x5D07B19A)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "LPC54608 SETA 1" --pd "DEBUG SETA 1" --pd "__CC_ARM SETA 1" --pd "KEIL SETA 1" --pd "DEBUG SETA 1"--list .\output\startup_lpc54608.lst -o debug\startup_lpc54608.o --depend debug\startup_lpc54608.d)
+F (..\devices\LPC54608\utilities\fsl_assert.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_assert.o --omf_browse debug\fsl_assert.crf --depend debug\fsl_assert.d)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../devices/LPC54608/utilities/debug_console/fsl_debug_console.h)(0x5D07B19A)
+I (../components/serial_manager/serial_manager.h)(0x5D07B19A)
+I (../components/serial_manager/serial_port_uart.h)(0x5D07B19A)
+F (..\devices\LPC54608\utilities\debug_console\fsl_debug_console.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_debug_console.o --omf_browse debug\fsl_debug_console.crf --depend debug\fsl_debug_console.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (..\devices\LPC54608\utilities\debug_console\fsl_debug_console_conf.h)(0x5D07B19A)
+I (../devices/LPC54608/utilities/str/fsl_str.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../components/serial_manager/serial_manager.h)(0x5D07B19A)
+I (../components/serial_manager/serial_port_uart.h)(0x5D07B19A)
+I (..\devices\LPC54608\utilities\debug_console\fsl_debug_console.h)(0x5D07B19A)
+F (..\devices\LPC54608\utilities\str\fsl_str.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\fsl_str.o --omf_browse debug\fsl_str.crf --depend debug\fsl_str.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (..\devices\LPC54608\utilities\str\fsl_str.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../devices/LPC54608/utilities/debug_console/fsl_debug_console_conf.h)(0x5D07B19A)
+F (..\components\uart\usart_adapter.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\usart_adapter.o --omf_browse debug\usart_adapter.crf --depend debug\usart_adapter.d)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_usart.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_flexcomm.h)(0x5D07B19A)
+I (..\components\uart\uart.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+F (..\components\serial_manager\serial_manager.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\serial_manager.o --omf_browse debug\serial_manager.crf --depend debug\serial_manager.d)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (..\components\serial_manager\serial_manager.h)(0x5D07B19A)
+I (..\components\serial_manager\serial_port_uart.h)(0x5D07B19A)
+I (..\components\serial_manager\serial_port_internal.h)(0x5D07B19A)
+F (..\components\serial_manager\serial_port_uart.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\serial_port_uart.o --omf_browse debug\serial_port_uart.crf --depend debug\serial_port_uart.d)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (..\components\serial_manager\serial_manager.h)(0x5D07B19A)
+I (..\components\serial_manager\serial_port_uart.h)(0x5D07B19A)
+I (..\components\serial_manager\serial_port_internal.h)(0x5D07B19A)
+I (../components/uart/uart.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+F (..\components\lists\generic_list.c)(0x5D07B19A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\generic_list.o --omf_browse debug\generic_list.crf --depend debug\generic_list.d)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (..\components\lists\generic_list.h)(0x5D07B19A)
+F (..\middleware\emwin\emWin_Config\emwin_config.c)(0x5E8454BB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F -I ..\board -I ../middleware/fatfs/source -I ../CMSIS/Include -I ../devices -I ../platform/drivers -I ../platform/drivers/common -I ../rtos/amazon-freertos/lib/include -I ../rtos/amazon-freertos/lib/include/private -I ../middleware/usb -I ../middleware/usb/include -I ../middleware/usb/osa -I ../middleware/usb/host -I ../middleware/usb/host/class -I ../middleware/fatfs/source -I ../devices/LPC54608/drivers -I ../devices/LPC54608 -I ../devices/LPC54608/utilities/str -I ../devices/LPC54608/utilities/debug_console -I ../components/uart -I ../components/serial_manager -I ../components/lists -I ..\middleware\emwin\emWin_header -I ..\middleware\emwin\emWin_Config --library_interface=armcc --diag_suppress=1296,186-I.\RTE\_5509main_board-IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DLPC54608 -D_DEBUG="1" -DDEBUG -DCPU_LPC54608 -DUSB_STACK_FREERTOS -DPRINTF_ADVANCED_ENABLE="1" -DCPU_LPC54608J512ET180="1" -DUSB_STACK_FREERTOS_HEAP_SIZE="16384" -DUSB_STACK_USE_DEDICATED_RAM="1" -DFSL_RTOS_FREE_RTOS -DCORE_M4-o debug\emwin_config.o --omf_browse debug\emwin_config.crf --depend debug\emwin_config.d)
+I (../rtos/amazon-freertos/lib/include/FreeRTOS.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\board\FreeRTOSConfig.h)(0x5D07B19A)
+I (../rtos/amazon-freertos/lib/include/private/projdefs.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/portable.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/task.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/private/list.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/queue.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/timers.h)(0x5D07B19C)
+I (../rtos/amazon-freertos/lib/include/semphr.h)(0x5D07B19C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\board\board.h)(0x5D07B19A)
+I (..\board\clock_config.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_common.h)(0x5D07B19A)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5D9AD212)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9AD21A)
+I (../devices/LPC54608/fsl_device_registers.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608.h)(0x5D07B19A)
+I (../CMSIS/Include/core_cm4.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_version.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_compiler.h)(0x5D07B196)
+I (../CMSIS/Include/cmsis_armcc.h)(0x5D07B196)
+I (../CMSIS/Include/mpu_armv7.h)(0x5D07B196)
+I (../devices/LPC54608/system_LPC54608.h)(0x5D07B19A)
+I (../devices/LPC54608/LPC54608_features.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_clock.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_reset.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_gpio.h)(0x5D07B19A)
+I (../devices/LPC54608/utilities/debug_console/fsl_debug_console.h)(0x5D07B19A)
+I (../components/serial_manager/serial_manager.h)(0x5D07B19A)
+I (../components/serial_manager/serial_port_uart.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_lcdc.h)(0x5D07B19A)
+I (../devices/LPC54608/drivers/fsl_i2c.h)(0x5D07B19A)
+I (..\board\fsl_ft5406.h)(0x59E3E1F0)
+I (..\middleware\emwin\emWin_header\GUI.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_ConfDefaults.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_Config\GUIConf.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_Type.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\LCD.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\Global.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_Version.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUIDRV_Lin.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\BUTTON.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\WM.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\WM_GUI.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\DIALOG_Intern.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\WIDGET.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\WM_Intern.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_Private.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\LCD_Protected.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\GUI_Debug.h)(0x5D07B19A)
+I (..\middleware\emwin\emWin_header\SCROLLBAR.h)(0x5D07B19A)
