@@ -9,6 +9,6 @@
 #define __LCD_APP_H__
 
 void vLcdTask(void *pvParameters);
-
+void vTouchTask(void *pvParameters);
 
 #endif /* __APP_H__ */

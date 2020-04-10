@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp.sp
+--cpu=Cortex-M4.fp
 "debug\main.o"
 "debug\host_msd_fatfs.o"
 "debug\fsl_usb_disk_freertos.o"
@@ -10,6 +10,7 @@
 "debug\clock_config.o"
 "debug\pin_mux.o"
 "debug\fsl_ft5406.o"
+"debug\tsc2046.o"
 "debug\usb_host_ip3516hs.o"
 "debug\usb_host_ohci.o"
 "debug\usb_host_devices.o"
@@ -43,6 +44,7 @@
 "debug\fsl_usart_freertos.o"
 "debug\fsl_i2c.o"
 "debug\fsl_lcdc.o"
+"debug\fsl_spi.o"
 "debug\system_lpc54608.o"
 "debug\startup_lpc54608.o"
 "debug\fsl_assert.o"

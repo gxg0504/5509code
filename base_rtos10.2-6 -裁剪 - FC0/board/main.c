@@ -36,6 +36,10 @@
 /*******************************************************************************
  * Definitions
  ******************************************************************************/
+//Touch
+#define TOUCHTASK_STACKSIZE 100
+#define TOUCHTASK_PRIORITY  (tskIDLE_PRIORITY + 1UL)
+TaskHandle_t xTouchTaskHandle = NULL;
 //LCD
 #define LCDTASK_PRIORITY  		(tskIDLE_PRIORITY + 0UL)
 #define LCDTASK_STACKSIZE 		512
@@ -79,6 +83,7 @@ int main(void)
 	
 	USB_HostApplicationInit();
 	
+		touch_init();
     status = APP_LCDC_Init();
     if (status != kStatus_Success){PRINTF("LCD init failed\n");}
     assert(status == kStatus_Success);
@@ -89,7 +94,9 @@ int main(void)
 	GPIO_Config();
 //	board_key_init();
 	board_led_init();
-    
+
+	xTaskCreate(vTouchTask,"Touch Task",TOUCHTASK_STACKSIZE,NULL,TOUCHTASK_PRIORITY,&xTouchTaskHandle);
+
 	//LCD Task
 	if(xTaskCreate(vLcdTask,"LCD Task",LCDTASK_STACKSIZE,NULL,LCDTASK_PRIORITY,&xLcdTaskHandle) != pdPASS)
 	{

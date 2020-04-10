@@ -42,3 +42,17 @@ debug\lcd_app.o: ..\middleware\emwin\emWin_header\LCD_Protected.h
 debug\lcd_app.o: ..\middleware\emwin\emWin_header\GUI_Debug.h
 debug\lcd_app.o: ..\middleware\emwin\emWin_header\SCROLLBAR.h
 debug\lcd_app.o: ..\middleware\emwin\emWin_header\WIDGET.h
+debug\lcd_app.o: ../rtos/amazon-freertos/lib/include/FreeRTOS.h
+debug\lcd_app.o: ..\board\FreeRTOSConfig.h
+debug\lcd_app.o: ../rtos/amazon-freertos/lib/include/private/projdefs.h
+debug\lcd_app.o: ../rtos/amazon-freertos/lib/include/private/portable.h
+debug\lcd_app.o: ../rtos/amazon-freertos/lib/include/private/deprecated_definitions.h
+debug\lcd_app.o: ../rtos/amazon-freertos/lib/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h
+debug\lcd_app.o: ../rtos/amazon-freertos/lib/include/private/mpu_wrappers.h
+debug\lcd_app.o: ../rtos/amazon-freertos/lib/include/task.h
+debug\lcd_app.o: ../rtos/amazon-freertos/lib/include/private/list.h
+debug\lcd_app.o: ../rtos/amazon-freertos/lib/include/queue.h
+debug\lcd_app.o: ../rtos/amazon-freertos/lib/include/timers.h
+debug\lcd_app.o: ../rtos/amazon-freertos/lib/include/semphr.h
+debug\lcd_app.o: ../devices/LPC54608/drivers/fsl_spi.h
+debug\lcd_app.o: ../devices/LPC54608/drivers/fsl_flexcomm.h

@@ -67,11 +67,80 @@ void BOARD_InitPins(void)
 	LED_KEY_InitPins();
 	USB_InitPins();
 	FC_InitPins();
-
+	Touch_InitPins();
 
 		
 
 	
+	
+}
+
+void Touch_InitPins(void)
+{
+    const uint32_t port5_pin6_config = (/* Pin is configured as FC9_SCK */
+                                         IOCON_PIO_FUNC3 |
+                                         /* Selects pull-up function */
+                                         IOCON_PIO_MODE_PULLUP |
+                                         /* Input function is not inverted */
+                                         IOCON_PIO_INV_DI |
+                                         /* Enables digital function */
+                                         IOCON_PIO_DIGITAL_EN |
+                                         /* Input filter disabled */
+                                         IOCON_PIO_INPFILT_OFF |
+                                         /* Standard mode, output slew rate control is enabled */
+                                         IOCON_PIO_SLEW_STANDARD |
+                                         /* Open drain is disabled */
+                                         IOCON_PIO_OPENDRAIN_DI);
+    /* PORT3 PIN20 (coords: N2) is configured as FC9_SCK */
+    IOCON_PinMuxSet(IOCON, 5U, 6U, port5_pin6_config);
+
+    const uint32_t port5_pin7_config = (/* Pin is configured as FC9_RXD_SDA_MOSI */
+                                         IOCON_PIO_FUNC3 |
+                                         /* Selects pull-up function */
+                                         IOCON_PIO_MODE_PULLUP |
+                                         /* Input function is not inverted */
+                                         IOCON_PIO_INV_DI |
+                                         /* Enables digital function */
+                                         IOCON_PIO_DIGITAL_EN |
+                                         /* Input filter disabled */
+                                         IOCON_PIO_INPFILT_OFF |
+                                         /* Open drain is disabled */
+                                         IOCON_PIO_OPENDRAIN_DI);
+    /* PORT3 PIN21 (coords: P5) is configured as FC9_RXD_SDA_MOSI */
+    IOCON_PinMuxSet(IOCON, 5U, 7U, port5_pin7_config);
+
+    const uint32_t port5_pin8_config = (/* Pin is configured as FC9_TXD_SCL_MISO */
+                                         IOCON_PIO_FUNC3 |
+                                         /* Selects pull-up function */
+                                         IOCON_PIO_MODE_PULLUP |
+                                         /* Input function is not inverted */
+                                         IOCON_PIO_INV_DI |
+                                         /* Enables digital function */
+                                         IOCON_PIO_DIGITAL_EN |
+                                         /* Input filter disabled */
+                                         IOCON_PIO_INPFILT_OFF |
+                                         /* Open drain is disabled */
+                                         IOCON_PIO_OPENDRAIN_DI);
+    /* PORT3 PIN22 (coords: N5) is configured as FC9_TXD_SCL_MISO */
+    IOCON_PinMuxSet(IOCON, 5U, 8U, port5_pin8_config);
+
+    const uint32_t port5_pin9_config = (/* Pin is configured as FC9_CTS_SDA_SSEL0 */
+                                         IOCON_PIO_FUNC3 |
+                                         /* Selects pull-up function */
+                                         IOCON_PIO_MODE_PULLUP |
+                                         /* Input function is not inverted */
+                                         IOCON_PIO_INV_DI |
+                                         /* Enables digital function */
+                                         IOCON_PIO_DIGITAL_EN |
+                                         /* Input filter disabled */
+                                         IOCON_PIO_INPFILT_OFF |
+                                         /* Standard mode, output slew rate control is enabled */
+                                         IOCON_PIO_SLEW_STANDARD |
+                                         /* Open drain is disabled */
+                                         IOCON_PIO_OPENDRAIN_DI);
+    /* PORT3 PIN30 (coords: K13) is configured as FC9_CTS_SDA_SSEL0 */
+    IOCON_PinMuxSet(IOCON, 5U, 9U, port5_pin9_config);
+
 	
 }
 void FC_InitPins(void)

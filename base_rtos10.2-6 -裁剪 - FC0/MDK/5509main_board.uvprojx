@@ -458,6 +458,11 @@
               <FileType>1</FileType>
               <FilePath>..\board\fsl_ft5406.c</FilePath>
             </File>
+            <File>
+              <FileName>tsc2046.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\board\tsc2046.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -666,6 +671,11 @@
               <FileName>fsl_lcdc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\devices\LPC54608\drivers\fsl_lcdc.c</FilePath>
+            </File>
+            <File>
+              <FileName>fsl_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\devices\LPC54608\drivers\fsl_spi.c</FilePath>
             </File>
           </Files>
         </Group>

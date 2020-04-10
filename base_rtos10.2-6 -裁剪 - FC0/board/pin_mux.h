@@ -99,7 +99,7 @@ void LCD_InitPins(void);
 void LED_KEY_InitPins(void);
 void USB_InitPins(void);
 void FC_InitPins(void);
-
+void Touch_InitPins(void);
 
 #if defined(__cplusplus)
 }

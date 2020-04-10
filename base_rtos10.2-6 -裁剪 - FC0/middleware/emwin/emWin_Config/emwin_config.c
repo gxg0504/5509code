@@ -36,7 +36,7 @@
 #define LCD_HSW 6
 #define LCD_HFP 210
 #define LCD_HBP 46
-#define LCD_LPP 480-1
+#define LCD_LPP 480
 #define LCD_VSW 1
 #define LCD_VFP 22
 #define LCD_VBP 23

@@ -1096,17 +1096,17 @@ ARM Macro Assembler    Page 17
               00000000 
               00000000 
               00000000 
-Command Line: --debug --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=interwo
-rk --depend=debug\startup_lpc54608.d -odebug\startup_lpc54608.o -I.\RTE\_5509ma
-in_board -IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Devic
-e\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1" --pred
-efine="__UVISION_VERSION SETA 529" --predefine="LPC54608 SETA 1" --predefine="D
-EBUG SETA 1" --predefine="__CC_ARM SETA 1" --predefine="KEIL SETA 1" --predefin
-e="DEBUG SETA 1" --list=.\output\startup_lpc54608.lst ..\devices\LPC54608\arm\s
+Command Line: --debug --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=interwork 
+--depend=debug\startup_lpc54608.d -odebug\startup_lpc54608.o -I.\RTE\_5509main_
+board -IC:\Users\gxg05\AppData\Local\Arm\Packs\Keil\LPC54000_DFP\2.7.0\Device\I
+nclude -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1" --predefi
+ne="__UVISION_VERSION SETA 528" --predefine="LPC54608 SETA 1" --predefine="DEBU
+G SETA 1" --predefine="__CC_ARM SETA 1" --predefine="KEIL SETA 1" --predefine="
+DEBUG SETA 1" --list=.\output\startup_lpc54608.lst ..\devices\LPC54608\arm\star
 
 
 
 ARM Macro Assembler    Page 18 
 
 
-tartup_LPC54608.s
+tup_LPC54608.s
